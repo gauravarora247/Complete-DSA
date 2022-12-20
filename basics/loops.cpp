@@ -33,23 +33,45 @@
 
 // }
 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int a;
+// cout<<"Enter the value of a"<<endl;
+// cin>>a;
+// if(a>0)
+// {
+//     cout<<"It is a positive no. "<<endl;
+// }
+// else if(a<0)
+// {
+//     cout<<"It is a negative no."<<endl;
+// }
+// else
+// {
+//     cout<<"A is equal to 0"<<endl;
+// }
+// }
+
 #include<bits/stdc++.h>
-using namespace std;
+using  namespace std;
 int main()
 {
-int a;
-cout<<"Enter the value of a"<<endl;
-cin>>a;
-if(a>0)
+int age;
+cout<<"Enter the age "<<endl;
+cin>>age;
+if((age > 18) && (age<50))
 {
-    cout<<"It is a positive no. "<<endl;
+    cout<<"You are young"<<endl;
 }
-else if(a<0)
+else if(age >50)
 {
-    cout<<"It is a negative no."<<endl;
+    cout<<"You are old "<<endl;
+
 }
 else
 {
-    cout<<"A is equal to 0"<<endl;
+    cout<<"you are a kid "<<endl;
 }
 }
