@@ -123,23 +123,82 @@
 
 
 
-//print sum from number 1 to n
+// //print sum from number 1 to n
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n ;
+// int i = 1;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// int sum = 0;
+// while(i<=n)
+// {
+//     // cout<<sum<<endl;
+    
+//     sum = sum+i;
+//     i = i+1;
+  
+// }
+// cout<<"sum is "<<sum<<endl;
+// }
+
+
+//printing sum of all even numbers 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n ;
+// int i = 0;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// int sum = 0;
+// while(i<=n)
+// {
+//     // cout<<sum<<endl;
+    
+//     sum = sum+i;
+//     i = i+2;
+  
+// }
+// cout<<"sum is "<<sum<<endl;
+// }
+
+
+//check whether the number is prime or not 
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-int n ;
-int i = 1;
-cout<<"Enter the value of n"<<endl;
-cin>>n;
-int sum = 0;
-while(i<=n)
+int num;
+cout<<"Enter the number "<<endl;
+cin>>num;
+int flag = 0;
+for(int i=2;i<=num;i++)
 {
-    // cout<<sum<<endl;
-    
-    sum = sum+i;
-    i = i+1;
-  
+    if(num%i==0)
+    {
+        cout<<"It is not a prime no. ";
+        flag = 1 ;
+        break; 
+    }
+    else
+    {
+        cout<<"It is prime "<<endl;
+        break;
+    }
 }
-cout<<"sum is "<<sum<<endl;
-}
+
+// if(flag)
+// {
+//     cout<<"It is a prime number"<<endl;
+
+// }
+// else 
+// {
+//     cout<<"It is not a prime number "<<endl; 
+// }
+
+ }
