@@ -54,24 +54,48 @@
 // }
 // }
 
+// #include<bits/stdc++.h>
+// using  namespace std;
+// int main()
+// {
+// int age;
+// cout<<"Enter the age "<<endl;
+// cin>>age;
+// if((age > 18) && (age<50))
+// {
+//     cout<<"You are young"<<endl;
+// }
+// else if(age >50)
+// {
+//     cout<<"You are old "<<endl;
+
+// }
+// else
+// {
+//     cout<<"you are a kid "<<endl;
+// }
+// }
+
+
+//check the number is between a and z or A and Z or 0 to 9 
 #include<bits/stdc++.h>
-using  namespace std;
+using namespace std;
 int main()
 {
-int age;
-cout<<"Enter the age "<<endl;
-cin>>age;
-if((age > 18) && (age<50))
+char ch;
+cout<<"Enter the character "<<endl;
+cin>>ch;
+if(ch >='a' && ch <='z')
 {
-    cout<<"You are young"<<endl;
+    cout<<"It is lowercase"<<endl;
 }
-else if(age >50)
+else if(ch>='A' &&  ch<='Z')
 {
-    cout<<"You are old "<<endl;
-
+    cout<<"It is an uppercase letter "<<endl;
 }
 else
 {
-    cout<<"you are a kid "<<endl;
+    cout<<"It is a number "<<endl;
 }
+
 }
