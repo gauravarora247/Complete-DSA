@@ -78,24 +78,68 @@
 
 
 //check the number is between a and z or A and Z or 0 to 9 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// char ch;
+// cout<<"Enter the character "<<endl;
+// cin>>ch;
+// if(ch >='a' && ch <='z')
+// {
+//     cout<<"It is lowercase"<<endl;
+// }
+// else if(ch>='A' &&  ch<='Z')
+// {
+//     cout<<"It is an uppercase letter "<<endl;
+// }
+// else
+// {
+//     cout<<"It is a number "<<endl;
+// }
+
+// }
+
+
+//print number 1 to n 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n ;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// int i = 0;
+// while(i<=n)
+// {
+
+//     cout<<i<<endl;
+//    i = i+1;
+// }
+// cout<<"I is greater than number "<<endl;
+
+// }
+
+
+
+
+//print sum from number 1 to n
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-char ch;
-cout<<"Enter the character "<<endl;
-cin>>ch;
-if(ch >='a' && ch <='z')
+int n ;
+int i = 1;
+cout<<"Enter the value of n"<<endl;
+cin>>n;
+int sum = 0;
+while(i<=n)
 {
-    cout<<"It is lowercase"<<endl;
+    // cout<<sum<<endl;
+    
+    sum = sum+i;
+    i = i+1;
+  
 }
-else if(ch>='A' &&  ch<='Z')
-{
-    cout<<"It is an uppercase letter "<<endl;
-}
-else
-{
-    cout<<"It is a number "<<endl;
-}
-
+cout<<"sum is "<<sum<<endl;
 }
