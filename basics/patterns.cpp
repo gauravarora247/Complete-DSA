@@ -185,21 +185,218 @@
 
 
 // pattern 9
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n;
+// cout<<"Enter the value of n "<<endl;
+// cin>>n;
+//     for(int i=1;i<=n;i++)
+//     {
+//         int value = i ;
+//         for(int j=1;j<=i;j++)
+//         {
+//             cout<<value<<"\t";
+//             value--;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+//patern 10
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// char n;
+// cout<<"Enter the value of n "<<endl;
+// cin>>n;
+// int m ;
+// cout<<"Enter the value of m"<<endl;
+// cin>>m;
+
+// for(int i=1;i<=m;i++)
+// {
+//     for(int j=1;j<=m;j++)
+//     {
+//    cout<<n<<"\t";
+   
+//     }
+//     n++;
+//     cout<<endl;
+// }
+// }
+
+//pattern 10 
+
+// a b c 
+//d e  f
+//g h  i 
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// char ch;
+// cout<<"Enter the value of ch "<<endl;
+// cin>>ch;
+// int n ;
+// cout<<"Enter the value of n "<<endl;
+// cin>>n;
+// for(int i=1;i<=n;i++)
+// {
+//     char value = ch;
+//     for(int j=1;j<=n;j++)
+//     {
+//       cout<<ch<<"\t";
+//       ch++; 
+//     }
+//     cout<<endl;
+// }
+// }
+
+
+//pattern 11 
+// A B C 
+// A B C 
+// A B C
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// char ch;
+// cout<<"Enter the character "<<endl;
+// cin>>ch;
+// int n;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// for(int i=1;i<=n;i++)
+// {
+//   char value = ch;
+//   for(int j=1;j<=n;j++)
+//   {
+//     cout<<value<<"\t";
+     
+//     value++;
+//   }
+//   cout<<endl;
+// }
+
+
+// }
+
+
+//Pattern 12 
+// A B C
+// B C D 
+// C D E 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//   int n ;
+//   char ch;
+//   cout<<"Enter the ch "<<endl;
+//   cin>>ch;
+
+//   cout<<"Enter the value of n "<<endl;
+//   cin>>n;
+  
+
+//   for(int i=1;i<=n;i++)
+//   {
+//     int value = i;
+//     for(int j=1;j<=n;j++)
+//     {
+//       cout<<ch + i<<"\t";
+//       ch++;
+//     }
+//     cout<<endl;
+
+//   }
+// }
+
+
+// A
+// BBB 
+// CCC
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// char ch;
+// cout<<"Enter the character "<<endl;
+// cin>>ch;
+// for(int i=1;i<=n;i++)
+// {
+
+//   for(int j=1;j<=i;j++)
+//   {
+//  cout<<ch<<"\t";
+
+//   }
+//   ch++;
+//   cout<<endl;
+// }
+// }
+
+// A
+// B C
+// D E F
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//   char ch;
+//   cout<<"Enter the value of ch "<<endl;
+//   cin>>ch;
+//   int n ;
+//   cout<<"Enter the value of n"<<endl;
+//   cin>>n;
+//   for(int i=1;i<=n;i++)
+//   {
+//     for(int j=1;j<=i;j++)
+//     {
+//       cout<<ch<<"\t";
+//       ch++;
+
+//     }
+//      cout<<endl;
+//   }
+// }
+
+
+// A
+// B C 
+// C D E 
+// D  E F 
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
+char ch;
+cout<<"Enter the value of ch "<<endl;
+cin>>ch;
 int n;
-cout<<"Enter the value of n "<<endl;
+cout<<"Enter the value of n"<<endl;
 cin>>n;
-    for(int i=1;i<=n;i++)
-    {
-        int value = i ;
-        for(int j=1;j<=i;j++)
-        {
-            cout<<value<<"\t";
-            value--;
-        }
-        cout<<endl;
-    }
+for(int i=1;i<=n;i++)
+{
+  
+for(int j=1;j<=i;j++)
+{
+  char value = 'A' + i + j -2;
+  cout<<value<<"\t";
+  
+}
+cout<<endl;
+}
 }
