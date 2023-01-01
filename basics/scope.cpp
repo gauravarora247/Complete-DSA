@@ -9,5 +9,14 @@ if(true)
     int a = 5;
     cout<<a<<endl;
 }
-cout<<a;
+cout<<a<<endl;
+
+
+int i = 4;
+for(; i<6;i++)
+{
+    cout<<"hello "<<endl;
+}
+
+
 }
