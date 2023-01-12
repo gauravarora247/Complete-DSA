@@ -30,72 +30,79 @@
 
 //Calculator using switch case 
 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// int n;
+// int m;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// cout<<"Enter the value of m"<<endl;
+// cin>>m;
+
+// char op;
+// cout<<"Enter the operation "<<endl;
+// cin>>op;
+
+// switch(op)
+// {
+//     case '+':
+//     {
+//       cout<<(n+m);
+//       break;
+//     }
+//     case '-':
+//     {
+//      if(n>m)
+//      {
+//         cout<<(n-m);
+//      }
+//      else
+//      {
+//         cout<<(m-n);
+//      }
+//      break;
+//     }
+
+//     case '*':
+//     {
+//       cout<<n*m<<endl;
+//       break;
+//     }
+
+//     case '/':
+//     {
+//     if(n>m)
+//     {
+//         cout<<(n/m);
+//     }
+//     else
+//     {
+//         cout<<(m/n);
+//     }
+//     }
+    
+//     case '%':
+//     {
+//      cout<<(n%m);
+//     }
+    
+
+    
+// }
+
+// }
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-int n;
-int m;
-cout<<"Enter the value of n"<<endl;
-cin>>n;
-cout<<"Enter the value of m"<<endl;
-cin>>m;
 
-char op;
-cout<<"Enter the operation "<<endl;
-cin>>op;
-
-switch(op)
-{
-    case '+':
-    {
-      cout<<(n+m);
-      break;
-    }
-    case '-':
-    {
-     if(n>m)
-     {
-        cout<<(n-m);
-     }
-     else
-     {
-        cout<<(m-n);
-     }
-     break;
-    }
-
-    case '*':
-    {
-      cout<<n*m<<endl;
-      break;
-    }
-
-    case '/':
-    {
-    if(n>m)
-    {
-        cout<<(n/m);
-    }
-    else
-    {
-        cout<<(m/n);
-    }
-    }
-    
-    case '%':
-    {
-     cout<<(n%m);
-    }
-    
-
-    
-}
-
-
-
-
-
-
-
+  int num = 1330;
+  
+  switch(num)
+  {
+    case 
+  }
 }
