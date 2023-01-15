@@ -119,31 +119,70 @@
 // printcount(count);
 // }
 
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// bool isprime(int n)
+// {
+//  for(int i=2;i<n;i++)
+//  { 
+//   if(n%i==0)
+//   {
+//     return false;
+//   }
+//  }
+//  return true;
+// }
+
+
+
+// int main()
+// {
+// int num;
+// int n;
+// // cout<<"Enter the value of num "<<endl;
+// // cin>>num;
+// cout<<"Enter the value of n"<<endl;
+// cin>>n;
+// bool res = isprime(n);
+// cout<<res<<endl;
+// }
+
 #include<bits/stdc++.h>
 using namespace std;
 
-bool isprime(int n)
+int getfibonacci(int n)
 {
- for(int i=2;i<n;i++)
- { 
-  if(n%i==0)
-  {
-    return false;
-  }
- }
- return true;
+    int a = 0;
+    int b = 1;
+    int c;
+for(int i=1;i<=n;i++)
+{
+    c= a+b;
+    if(i==n)
+    {
+        return c;
+
+
+    }
+    a = b;
+    b = c;
+
 }
 
+}
 
 
 int main()
 {
-int num;
+
 int n;
-// cout<<"Enter the value of num "<<endl;
-// cin>>num;
 cout<<"Enter the value of n"<<endl;
 cin>>n;
-bool res = isprime(n);
-cout<<res<<endl;
+int res = getfibonacci(n);
+cout<<res;
+
+
+
+
 }
