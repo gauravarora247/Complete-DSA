@@ -42,3 +42,55 @@
 
 
 // }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int printMax(int arr[],int n)
+{
+int max = arr[0];
+for(int i=0;i<n;i++)
+{
+    if(arr[i]>max)
+    {
+   max = arr[i];
+    }
+}
+return max;
+}
+
+int printMin(int arr[],int n )
+{
+    int min = arr[0];
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]<min)
+        {
+            min = arr[i];
+        }
+    }
+    return min;
+}
+
+int main()
+{
+int n ;
+cout<<"Enter the value of n"<<endl;
+cin>>n;
+int arr[n];
+for(int i=0;i<n;i++)
+{
+    cin>>arr[i];
+}
+
+int max = printMax(arr,n);
+cout<<"max  element in an array is "<<max<<endl;
+int min = printMin(arr,n);
+cout<<"Min element in an array is "<<min<<endl;
+
+
+
+
+}
